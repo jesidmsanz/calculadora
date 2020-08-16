@@ -1,0 +1,58 @@
+*{
+    padding: 0px;    
+}
+/* Estilo de pantalla */
+#result{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: end;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border: none;
+    border-top-left-radius: 15px;
+}
+/* Estilo de bloque completo de la calculadora */
+.calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(37, 179, 167);  
+    border-top-left-radius: 15px; 
+}
+/* Estilo de botones */
+td button{
+    display: block;
+    font-size: 20px;
+    color: rgb(68, 65, 65);
+    width: 60px;
+    height: 60px;
+    border: none;  
+}
+/* Efecto de botones */
+td button:hover{
+    background-color: rgb(151, 221, 221);
+    color: white;
+    font-size: 20px;    
+}
+/* Color de botones operacionales */
+#igual,#reset,#suma,#multi,#reta,#punto,#resta{
+    background-color: rgb(151, 221, 221);
+}
+/* Efecto de botones operacionales */
+#restar:hover,#suma:hover,#multi:hover,#igual:hover,#punto:hover,#reset:hover{
+    background-color: rgb(71, 207, 207);
+}
+/* Diseño Firma */
+.firma{
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(68, 65, 65);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
